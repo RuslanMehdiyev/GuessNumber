@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>GuessNumber</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="guess-game">
+        <h2>Number of Guessing Game</h2>
+        <h4>Guess a number between 1-15</h4>
+        <div class="game">
+          <input type="number" id="input" />
+          <div>
+            <button id="guess">GUESS</button>
+            <button id="reload">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+          </div>
+        </div>
+        <div class="info">
+          <h5>Guess Number is: <span class="guessNo">?</span></h5>
+          <h5>Number of guesses: <span class="noCount">0</span></h5>
+        </div>
+        <h3 class="comment"></h3>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
